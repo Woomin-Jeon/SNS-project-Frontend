@@ -16,7 +16,7 @@ export const addPost = async (id, name, contents, profile, imagePath, time) => {
 };
 
 export const removePost = async (uniqueKey) => {
-  const { data } = await axios.delete(`${POSTS_URL}/${uniqueKey}`);
+  const { data } = await axios.patch(`${POSTS_URL}/del`, { uniqueKey });
   return data;
 };
 
