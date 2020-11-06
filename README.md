@@ -1,6 +1,6 @@
 # Facebook
 
-웹 사이트 URL : http://woomin-facebook.com  
+웹 사이트 URL : http://woomin-facebook.com (인스턴스 내림)  
 테스트 유저 ⇒ 아이디: test / 비밀번호: test
 
 <br />
